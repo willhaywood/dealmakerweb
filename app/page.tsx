@@ -9,6 +9,7 @@ import ServiceHero from "../components/ServiceHero/ServiceHero";
 import TextCta from "../components/TextCta/TextCta";
 import TextWhoWeAre from "../components/TextWhoWeAre/TextWhoWeAre";
 import HowItWorks from "../components/HowItWorks/HowItWorks";
+import DiveInNow from "../components/DiveInNow/DiveInNow";
 
 
 export const metadata: Metadata = {
@@ -47,6 +48,7 @@ export default function Web() {
       <ServiceHero/>
       <TextWhoWeAre />
       <HowItWorks />
+      <DiveInNow />
       <section className="bg-white dark:bg-gray-900">
 
       </section>
