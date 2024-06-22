@@ -1,15 +1,15 @@
-import {Button, Theme} from "@radix-ui/themes";
+import {Theme} from "@radix-ui/themes";
 import { Metadata } from "next"
 import '@radix-ui/themes/styles.css';
 import ClientMarquee from "../components/ClientMarquee/ClientMarquee";
+import DiveInNow from "../components/DiveInNow/DiveInNow";
 import Header from "../components/Header/Header";
 import Hero from "../components/Hero/Hero";
-import TextMarquee from "../components/TextMarquee/TextMarquee";
+import HowItWorks from "../components/HowItWorks/HowItWorks";
 import ServiceHero from "../components/ServiceHero/ServiceHero";
 import TextCta from "../components/TextCta/TextCta";
+import TextMarquee from "../components/TextMarquee/TextMarquee";
 import TextWhoWeAre from "../components/TextWhoWeAre/TextWhoWeAre";
-import HowItWorks from "../components/HowItWorks/HowItWorks";
-import DiveInNow from "../components/DiveInNow/DiveInNow";
 
 
 export const metadata: Metadata = {

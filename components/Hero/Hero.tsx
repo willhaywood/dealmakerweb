@@ -1,5 +1,6 @@
 import {Button} from "@radix-ui/themes";
 import bg from "../../public/assets/HeroBG.png";
+import Link from "next/link";
 
 
 export default function Hero() {
@@ -46,9 +47,9 @@ export default function Hero() {
                             className="mr-3 px-2"
                             size="4"
                         >
-                            <span className="px-6">
+                            <Link href="/contact" className="px-6">
                                 Invest
-                            </span>
+                            </Link>
                         </Button>
                         <Button
                             variant="outline"
