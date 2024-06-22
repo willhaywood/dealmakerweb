@@ -1,4 +1,3 @@
-import {BarChartIcon, LightningBoltIcon, RocketIcon, TargetIcon} from "@radix-ui/react-icons";
 import {Button} from "@radix-ui/themes";
 import bg from "../../public/assets/HeroBG.png";
 

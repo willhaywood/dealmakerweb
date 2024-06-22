@@ -1,6 +1,3 @@
-import Image from "next/image";
-import logograd from "../../public/logos/DealFusion_Icon_Gradient.png";
-import logowhite from "../../public/logos/DealFusion_Icon_White.png";
 import {Button} from "@radix-ui/themes";
 
 export default function HowItWorks() {

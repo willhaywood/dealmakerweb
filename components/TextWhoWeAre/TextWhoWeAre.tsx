@@ -44,8 +44,8 @@ export default function TextWhoWeAre() {
                             <div className={"flex justify-center w-full"}>
                                 <Image src={logograd} alt={"Logo"} className={"p-4"}/>
                             </div>
-                            <p className="text-xl">Businesses are bought and sold every day. But it's not accessible to all.
-                                It's a time consuming process. Finding the right match is difficult. It has limited capabilities.
+                            <p className="text-xl">Businesses are bought and sold every day. But it&apos;s not accessible to all.
+                                It&apos;s a time consuming process. Finding the right match is difficult. It has limited capabilities.
                             </p>
                         </div>
                     </div>
