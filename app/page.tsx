@@ -6,10 +6,13 @@ import Header from "../components/Header/Header";
 import Hero from "../components/Hero/Hero";
 import TextMarquee from "../components/TextMarquee/TextMarquee";
 import ServiceHero from "../components/ServiceHero/ServiceHero";
+import TextCta from "../components/TextCta/TextCta";
+import TextWhoWeAre from "../components/TextWhoWeAre/TextWhoWeAre";
+import HowItWorks from "../components/HowItWorks/HowItWorks";
 
 
 export const metadata: Metadata = {
-  title: "DealMaker Web",
+  title: "DealFusion Web",
   twitter: {
     card: "summary_large_image",
   },
@@ -40,7 +43,10 @@ export default function Web() {
       <Hero/>
       <ClientMarquee/>
       <TextMarquee/>
+      <TextCta />
       <ServiceHero/>
+      <TextWhoWeAre />
+      <HowItWorks />
       <section className="bg-white dark:bg-gray-900">
 
       </section>
