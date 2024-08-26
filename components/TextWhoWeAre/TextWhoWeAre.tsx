@@ -2,6 +2,7 @@ import Image from "next/image";
 import logograd from "../../public/logos/DealFusion_Icon_Gradient.png";
 import logowhite from "../../public/logos/DealFusion_Icon_White.png";
 import {Button} from "@radix-ui/themes";
+import Link from "next/link";
 
 export default function TextWhoWeAre() {
 
@@ -10,11 +11,11 @@ export default function TextWhoWeAre() {
             <section className="bg-white dark:bg-gray-900 py-12">
                 <div className="flex justify-center flex-wrap p-5 items-center w-full">
                     <div className="w-5/6">
-                        <p className="text-5xl text-center text-purple-400">HOW IT WORKS</p>
+                        <p className="text-5xl text-center text-purple-400">WHO WE ARE</p>
 
-                        <p className="text-9xl text-center">SIMPLE, EFFECTIVE</p>
+                        <p className="text-9xl text-center">GETTING THE</p>
 
-                        <p className="text-9xl text-center"><span className="italic font-serif">AUTOMATED.</span></p>
+                        <p className="text-9xl text-center"><span className="italic font-serif">deal.</span> DONE</p>
 
                         <p className="text-xl text-center">DealFusion automates a manual process process for advisors (accountants, consultants, etc.) This process
                             involves matching businesses that want to sell with individuals or entities that want to buy/invest. Currently
@@ -26,9 +27,9 @@ export default function TextWhoWeAre() {
                             variant="solid"
                             size="4"
                         >
-                                <span className="px-6">
+                                <Link href="/contact" className="px-6">
                                     Enquire Now
-                                </span>
+                                </Link>
                         </Button>
                     </div>
                 </div>
@@ -36,7 +37,8 @@ export default function TextWhoWeAre() {
             <section className="bg-white dark:bg-gray-900 p-4">
                 <div className="flex flex-row flex-wrap justify-center">
                     <div
-                        className="flex justify-center items-center lg:w-2/5 sm:w-full h-fit border-2 border-gray-500 rounded-3xl p-20 m-4">
+                        className="flex justify-center items-center lg:w-2/5 sm:w-full border-2 border-gray-500 rounded-3xl p-20 m-4"
+                        style={{height: 600} }>
                         <div className="px-2">
                             <h4 className="md:text-5xl xl:text-6xl my-3">
                                 The Problem
@@ -50,7 +52,8 @@ export default function TextWhoWeAre() {
                         </div>
                     </div>
                     <div
-                        className="flex justify-center items-center lg:w-2/5 sm:w-full h-fit border-2 border-gray-500 rounded-3xl p-20 m-4 bg-purple-400">
+                        className="flex justify-center items-center lg:w-2/5 sm:w-full border-2 border-gray-500 rounded-3xl p-20 m-4 bg-purple-400"
+                        style={{height: 600} }>
                         <div className="px-2">
                             <h4 className="md:text-5xl xl:text-6xl my-3">
                                 The Solution
@@ -61,10 +64,10 @@ export default function TextWhoWeAre() {
                             <p className="text-xl">We will create a platform that makes business transactions visible, streamlined and accessible.
                             </p>
                             <p>This will assist:</p>
-                            <ul>
-                                <li>Advisors</li>
-                                <li>Business Owners</li>
-                                <li>Investors</li>
+                            <ul className={"list-disc"}>
+                                <li className={"list-item ml-6"}>Advisors</li>
+                                <li className={"list-item ml-6"}>Business Owners</li>
+                                <li className={"list-item ml-6"}>Investors</li>
                             </ul>
                         </div>
                     </div>

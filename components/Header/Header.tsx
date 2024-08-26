@@ -10,9 +10,9 @@ export default function Header() {
     return (
         <section className="bg-white dark:bg-gray-900">
             <div className="flex flex-row flex-nowrap">
-                <div className="basis-1/2">
+                <a className="basis-1/2" href={"/"}>
                     <Image src={logo} alt={"DealFusion Logo"} width={250} className={"p-8"}/>
-                </div>
+                </a>
                 <div className="basis-1/2 flex justify-end p-5">
                     <Button
                         className="mr-3"

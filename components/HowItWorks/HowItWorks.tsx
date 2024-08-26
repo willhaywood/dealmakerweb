@@ -1,4 +1,5 @@
 import {Button} from "@radix-ui/themes";
+import Link from "next/link";
 
 export default function HowItWorks() {
 
@@ -23,9 +24,9 @@ export default function HowItWorks() {
                             variant="solid"
                             size="4"
                         >
-                                <span className="px-6">
+                                <Link href="/contact" className="px-6">
                                     Enquire Now
-                                </span>
+                                </Link>
                         </Button>
                     </div>
                 </div>

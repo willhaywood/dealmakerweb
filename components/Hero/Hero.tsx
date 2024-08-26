@@ -29,18 +29,18 @@ export default function Hero() {
                             variant="solid"
                             size="4"
                         >
-                            <span className="px-6">
+                            <Link href="/contact" className="px-6">
                                 Buy
-                            </span>
+                            </Link>
                         </Button>
                         <Button
                             variant="outline"
                             className="mr-3 px-2"
                             size="4"
                         >
-                            <span className="px-6">
+                            <Link href="/contact" className="px-6">
                                 Sell
-                            </span>
+                            </Link>
                         </Button>
                         <Button
                             variant="outline"
@@ -56,9 +56,9 @@ export default function Hero() {
                             className="mr-3 px-2"
                             size="4"
                         >
-                            <span className="px-6">
+                            <Link href="/contact" className="px-6">
                                 Seek Capital
-                            </span>
+                            </Link>
                         </Button>
                     </div>
                 </div>

@@ -1,6 +1,7 @@
 import Image from "next/image";
 import buyhero from "../../public/assets/HeroBuy.png";
 import {Button} from "@radix-ui/themes";
+import Link from "next/link";
 
 export default function ServiceHero() {
 
@@ -133,9 +134,9 @@ export default function ServiceHero() {
                                     variant="solid"
                                     size="4"
                                 >
-                                    <span className="px-6">
+                                    <Link href="/contact" className="px-6">
                                         Enquire Now
-                                    </span>
+                                    </Link>
                                 </Button>
                             </div>
                         </div>
